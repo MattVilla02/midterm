@@ -102,6 +102,7 @@ ul li {
     height: auto; 
 }
 figcaption{
-    font-size: 10px;
+    font-size: 12px;
     width: auto;
+    text-align: center;
 }
