@@ -101,3 +101,6 @@ ul li {
     max-width: 300px; 
     height: auto; 
 }
+figcaption{
+    font-size: 10px;
+}
