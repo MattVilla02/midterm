@@ -49,28 +49,9 @@ ul li {
     border-bottom: 1px solid #ccc;
 }
 
-.map {
-    margin-top: 20px;
-}
-#main-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    font-size: 0.9em;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-#main-footer p {
-    margin: 5px 0;
-}
-
-.gallery img {
-    width: 50%;
-    height: auto;
-    margin-bottom: 20px;
+ul li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
 }
 
 .schedule-container {
@@ -101,13 +82,34 @@ ul li {
     max-width: 300px; 
     height: auto; 
 }
+
 figcaption{
     font-size: 12px;
     width: auto;
     text-align: center;
 }
 
-ul li:hover {
-    background-color: #f0f0f0;
-    cursor: pointer;
+.map {
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#main-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#main-footer p {
+    margin: 5px 0;
 }
