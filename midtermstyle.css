@@ -106,3 +106,8 @@ figcaption{
     width: auto;
     text-align: center;
 }
+
+ul li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
